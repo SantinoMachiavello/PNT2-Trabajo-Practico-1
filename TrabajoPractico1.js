@@ -9,3 +9,8 @@ const productos = [
 
 console.log("Ejercicio 1:")
 console.log("1." + productos[0].nombre);
+
+console.log("2.")
+for (const producto of productos) {
+    console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);
+}
