@@ -32,3 +32,6 @@ console.log(arrayPrecio);
 
 console.log("7.")
 console.log(productos.find((producto) => producto.nombre === "Gorra"));
+
+console.log("8.")
+console.log(productos.some((producto) => producto.precio > 10000));
