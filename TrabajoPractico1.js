@@ -52,3 +52,13 @@ const arrayStrings = productos.map((producto) =>
 );
 
 console.log(arrayStrings);
+
+console.log("13.");
+const productosAdicionales = [
+    { id: 6, nombre: "Guantes", precio: 1000, categoria: "Accesorios" },
+    { id: 7, nombre: "Botas", precio: 1800, categoria: "Calzado" }
+];
+
+const todosLosProductos = [...productos, ...productosAdicionales];
+
+console.log(todosLosProductos);
