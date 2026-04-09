@@ -45,3 +45,10 @@ console.log(array.includes("Campera"));
 console.log("11.")
 productos.sort((a, b) => a.precio - b.precio);
 console.log(productos);
+
+console.log("12.")
+const arrayStrings = productos.map((producto) => 
+    `El producto ${producto.nombre} cuesta $${producto.precio} y pertenece a la categoria ${producto.categoria}`
+);
+
+console.log(arrayStrings);
