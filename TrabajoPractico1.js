@@ -25,3 +25,7 @@ console.log(array);
 console.log("5.")
 const arrayRopa = productos.filter((producto) => producto.categoria === "Ropa");
 console.log(arrayRopa);
+
+console.log("6.")
+const arrayPrecio = productos.filter((producto) => producto.precio > 3000);
+console.log(arrayPrecio);
