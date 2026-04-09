@@ -14,3 +14,6 @@ console.log("2.")
 for (const producto of productos) {
     console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);
 }
+
+console.log("3.")
+productos.forEach((producto) => {console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);})
