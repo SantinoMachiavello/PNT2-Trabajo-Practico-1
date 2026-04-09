@@ -21,3 +21,7 @@ productos.forEach((producto) => {console.log(`Producto: ${producto.nombre} - Pre
 console.log("Ejercicio 2:\n4.")
 const array = productos.map((producto) => producto.nombre);
 console.log(array);
+
+console.log("5.")
+const arrayRopa = productos.filter((producto) => producto.categoria === "Ropa");
+console.log(arrayRopa);
