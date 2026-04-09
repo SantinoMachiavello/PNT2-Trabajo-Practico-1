@@ -35,3 +35,6 @@ console.log(productos.find((producto) => producto.nombre === "Gorra"));
 
 console.log("8.")
 console.log(productos.some((producto) => producto.precio > 10000));
+
+console.log("9.")
+console.log(productos.every((producto) => producto.precio > 1000));
