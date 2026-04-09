@@ -5,3 +5,7 @@ const productos = [
 { id: 4, nombre: "Gorra", precio: 1200, categoria: "Accesorios" },  
 { id: 5, nombre: "Campera", precio: 9500, categoria: "Ropa" }  
 ];
+
+
+console.log("Ejercicio 1:")
+console.log("1." + productos[0].nombre);
