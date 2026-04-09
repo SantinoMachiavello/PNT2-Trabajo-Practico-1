@@ -41,3 +41,7 @@ console.log(productos.every((producto) => producto.precio > 1000));
 
 console.log("10.")
 console.log(array.includes("Campera"));
+
+console.log("11.")
+productos.sort((a, b) => a.precio - b.precio);
+console.log(productos);
