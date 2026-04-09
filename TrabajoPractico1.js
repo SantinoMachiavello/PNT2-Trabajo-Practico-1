@@ -38,3 +38,6 @@ console.log(productos.some((producto) => producto.precio > 10000));
 
 console.log("9.")
 console.log(productos.every((producto) => producto.precio > 1000));
+
+console.log("10.")
+console.log(array.includes("Campera"));
