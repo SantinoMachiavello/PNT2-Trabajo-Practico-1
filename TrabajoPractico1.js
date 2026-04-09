@@ -17,3 +17,7 @@ for (const producto of productos) {
 
 console.log("3.")
 productos.forEach((producto) => {console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);})
+
+console.log("Ejercicio 2:\n4.")
+const array = productos.map((producto) => producto.nombre);
+console.log(array);
